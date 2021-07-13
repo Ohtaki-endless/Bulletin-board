@@ -107,20 +107,20 @@
     <div class="form">
         <h3>入力フォーム</h3>
         <form method="POST" action="">
-    	    <input type="text" name="name" placeholder="名前を入力" value="<?php echo $edit_name;?>"><br>
-    	    <input type="text" name="comment" placeholder="コメントを入力" value="<?php echo $edit_com;?>"><br>
-    	    <input type="text" name="password_1" placeholder="パスワードを入力" value="<?php echo $edit_pass;?>"><br>
-    	    <input type="submit" name="submit" value="送信"><br>
-    	    <input type="hidden" name="e_post" value="<?php echo $e_n;?>"><br>
+		<input type="text" name="name" placeholder="名前を入力" value="<?php echo $edit_name;?>"><br>
+		<input type="text" name="comment" placeholder="コメントを入力" value="<?php echo $edit_com;?>"><br>
+		<input type="text" name="password_1" placeholder="パスワードを入力" value="<?php echo $edit_pass;?>"><br>
+		<input type="submit" name="submit" value="送信"><br>
+		<input type="hidden" name="e_post" value="<?php echo $e_n;?>"><br>
         </form>
     </div>
     <div class="form">
         <h3>削除フォーム</h3>
         <form method="POST" action="">
-	        <input type="number" name="delete_num" placeholder="削除番号を入力"><br>
-	        <input type="text" name="password_2" placeholder="パスワードを入力"><br>
-	        <input type="submit" name="submit" value="削除"><br>
-	    </form>
+		<input type="number" name="delete_num" placeholder="削除番号を入力"><br>
+		<input type="text" name="password_2" placeholder="パスワードを入力"><br>
+		<input type="submit" name="submit" value="削除"><br>
+	</form>
     </div>
     <div class="form">
         <h3>編集フォーム</h3>
